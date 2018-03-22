@@ -20,7 +20,8 @@ public class User extends BaseEntity {
     @Transient
     private String confirmPassword;
 
-    @Column(name = "ENABLED", columnDefinition = "tinyint default true")
+    //MySQL@Column(name = "ENABLED", columnDefinition = "tinyint default true")
+    @Column(name = "ENABLED", columnDefinition = "boolean default true")
     private Boolean enabled;
 
     @ManyToMany
