@@ -6,7 +6,7 @@ import javax.persistence.*;
 import java.util.Set;
 
 @Entity
-@Table(name = "users")
+@Table(name = "users1")
 public class User extends BaseEntity {
 
     @Column(name = "USERNAME")
