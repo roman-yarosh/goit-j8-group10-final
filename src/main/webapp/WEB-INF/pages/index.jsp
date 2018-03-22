@@ -5,9 +5,13 @@
     <p><a href="/employeeInfo">employeeInfo</a></p>
     <p><a href="/login">login</a></p>
     <p><a href="/logout">logout</a></p>
-    <p>Database security user [user role]: roman [ROLE_ADMIN], kostya [ROLE_ADMIN], nastya [ROLE_ADMIN],
-                         user [ROLE_USER], moderator [ROLE_MODERATOR]
-                         and password: 123</p>
+    <pre>Database security user [user role]:
+                            roman [ROLE_ADMIN],
+                            kostya [ROLE_ADMIN],
+                            nastya [ROLE_ADMIN],
+                            user [ROLE_USER],
+                            moderator [ROLE_MODERATOR]
+                            and password for all users: 123</pre>
 
     <p><a href="https://github.com/roman-yarosh/goit-j8-group10-final/blob/master/README.md">Documentation for API</a></p>
     <p>Examples of how to use our API:</p>
