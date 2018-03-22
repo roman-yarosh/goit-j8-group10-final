@@ -6,12 +6,12 @@ INSERT INTO statuses (id, type) VALUES (1, 'Working');
 INSERT INTO statuses (id, type) VALUES (2, 'Sick leave');
 INSERT INTO statuses (id, type) VALUES (3, 'Vacation');
 
--- Password 123 encoded: $2a$10$LjiXPzsJcX7VnZXgK3BrE.5arQ4divS5LvKZvebI.XWjrFiJlLEBC
-INSERT INTO users (id, username, password, enabled) VALUES (1, 'roman', '$2a$10$LjiXPzsJcX7VnZXgK3BrE.5arQ4divS5LvKZvebI.XWjrFiJlLEBC', true);
-INSERT INTO users (id, username, password, enabled) VALUES (2, 'kostya', '$2a$10$LjiXPzsJcX7VnZXgK3BrE.5arQ4divS5LvKZvebI.XWjrFiJlLEBC', true);
-INSERT INTO users (id, username, password, enabled) VALUES (3, 'nastya', '$2a$10$LjiXPzsJcX7VnZXgK3BrE.5arQ4divS5LvKZvebI.XWjrFiJlLEBC', true);
-INSERT INTO users (id, username, password, enabled) VALUES (4, 'user', '$2a$10$LjiXPzsJcX7VnZXgK3BrE.5arQ4divS5LvKZvebI.XWjrFiJlLEBC', true);
-INSERT INTO users (id, username, password, enabled) VALUES (5, 'moderator', '$2a$10$LjiXPzsJcX7VnZXgK3BrE.5arQ4divS5LvKZvebI.XWjrFiJlLEBC', true);
+-- Password 123 encoded: $2a$10$bW4D.1dZiGQ8/z0K5Hbz5OrNbXp0c3yC.p9Hz9W1Oe.Sdd.x20YYS
+INSERT INTO users (id, username, password, enabled) VALUES (1, 'roman', '$2a$10$bW4D.1dZiGQ8/z0K5Hbz5OrNbXp0c3yC.p9Hz9W1Oe.Sdd.x20YYS', true);
+INSERT INTO users (id, username, password, enabled) VALUES (2, 'kostya', '$2a$10$bW4D.1dZiGQ8/z0K5Hbz5OrNbXp0c3yC.p9Hz9W1Oe.Sdd.x20YYS', true);
+INSERT INTO users (id, username, password, enabled) VALUES (3, 'nastya', '$2a$10$bW4D.1dZiGQ8/z0K5Hbz5OrNbXp0c3yC.p9Hz9W1Oe.Sdd.x20YYS', true);
+INSERT INTO users (id, username, password, enabled) VALUES (4, 'user', '$2a$10$bW4D.1dZiGQ8/z0K5Hbz5OrNbXp0c3yC.p9Hz9W1Oe.Sdd.x20YYS', true);
+INSERT INTO users (id, username, password, enabled) VALUES (5, 'moderator', '$2a$10$bW4D.1dZiGQ8/z0K5Hbz5OrNbXp0c3yC.p9Hz9W1Oe.Sdd.x20YYS', true);
 
 INSERT INTO roles (id, name) VALUES (1, 'ROLE_USER');
 INSERT INTO roles (id, name) VALUES (2, 'ROLE_MODERATOR');
