@@ -37,13 +37,16 @@ public class SecurityConfiguration extends WebSecurityConfigurerAdapter {
 
     @Override
     protected void configure(AuthenticationManagerBuilder auth) throws Exception {
+        PasswordEncoder passwordEncoder = passwordEncoder();
+
+        System.out.println("Password 123 encoded : " + passwordEncoder.encode("123"));
         auth.
              //   inMemoryAuthentication().withUser("test").password("test").roles("ADMIN");
                 jdbcAuthentication()
                 .usersByUsernameQuery(usersQuery)
                 .authoritiesByUsernameQuery(rolesQuery)
                 .dataSource(dataSource)
-                .passwordEncoder(passwordEncoder());
+                .passwordEncoder(passwordEncoder);
     }
 	
 	@Override
