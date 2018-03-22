@@ -19,7 +19,8 @@ Our team consists of tree java developers: Roman Yarosh, Anastasiia Degtjarova, 
 
 ## Demo
 
-[My github home url](https://github.com/roman-yarosh)
+[Our github repository url for PostgreSQL](https://github.com/roman-yarosh/goit-j8-group10-final)
+[Our github repository url for MySQL](https://github.com/0k6r/GoITFinalProject)
 
 ## Technical task
 
@@ -107,6 +108,9 @@ You can get information from our REST server using next api links:
     Information about about all or exact roles: 
             https://goit-j8-group10-final.herokuapp.com/api/roles/
             https://goit-j8-group10-final.herokuapp.com/api/roles/{role id}
+    
+    All model classes you can get on Git repository from package:
+            goit-j8-group10-final/src/main/java/ua/goit/finall/model/ 
 
 ## License
 

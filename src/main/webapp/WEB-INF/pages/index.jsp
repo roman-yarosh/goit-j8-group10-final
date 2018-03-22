@@ -8,7 +8,9 @@
     <p>Database security user [user role]: roman [ROLE_ADMIN], kostya [ROLE_ADMIN], nastya [ROLE_ADMIN],
                          user [ROLE_USER], moderator [ROLE_MODERATOR]
                          and password: 123</p>
-    <p>API:</p>
+
+    <p><a href="https://github.com/roman-yarosh/goit-j8-group10-final/blob/master/README.md">Documentation for API</a></p>
+    <p>Examples of how to use our API:</p>
     <p><a href="http://goit-j8-group10-final.herokuapp.com/api/personalSalaries/${name}/2018/1/2018/3">http://goit-j8-group10-final.herokuapp.com/api/personalSalaries/${name}/2018/1/2018/3</a></p>
 <br>
     <p><a href="http://goit-j8-group10-final.herokuapp.com/api/employees/">http://goit-j8-group10-final.herokuapp.com/api/employees/</a></p>
