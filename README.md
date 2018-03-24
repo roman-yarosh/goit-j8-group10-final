@@ -77,38 +77,56 @@ You can get information from our REST server using next api links:
     Information about all or exact employee: 
         https://goit-j8-group10-final.herokuapp.com/api/employees/
         https://goit-j8-group10-final.herokuapp.com/api/employees/{employee id}
+        To save employee use api/employees/, pass employee as parameter and RequestMethod.POST
+        To delete employee use api/employees/{employeeId} and RequestMethod.DELETE
         
-    Information about about all or exact departments: 
+    Information about about all or exact department: 
             https://goit-j8-group10-final.herokuapp.com/api/departments/
             https://goit-j8-group10-final.herokuapp.com/api/departments/{department id}
+            To save department use api/departments/, pass department as parameter and RequestMethod.POST
+            To delete department use api/departments/{departmentId} and RequestMethod.DELETE
             
-    Information about about all or exact events: 
+    Information about about all or exact event: 
             https://goit-j8-group10-final.herokuapp.com/api/events/
             https://goit-j8-group10-final.herokuapp.com/api/events/{event id}
+            To save event use api/events/, pass event as parameter and RequestMethod.POST
+            To delete event use api/events/{eventId} and RequestMethod.DELETE
             
-    Information about about all or exact event types: 
+    Information about about all or exact event type: 
             https://goit-j8-group10-final.herokuapp.com/api/eventTypes/
             https://goit-j8-group10-final.herokuapp.com/api/eventTypes/{eventType id}
+            To save event type use api/eventTypes/, pass event type as parameter and RequestMethod.POST
+            To delete event type use api/eventTypes/{eventTypeId} and RequestMethod.DELETE
             
-    Information about about all or exact positions: 
+    Information about about all or exact position: 
             https://goit-j8-group10-final.herokuapp.com/api/positions/
             https://goit-j8-group10-final.herokuapp.com/api/positions/{position id}
+            To save position use api/positions/, pass position as parameter and RequestMethod.POST
+            To delete position use api/positions/{positionId} and RequestMethod.DELETE
             
-    Information about about all or exact salaries: 
+    Information about about all or exact salary: 
             https://goit-j8-group10-final.herokuapp.com/api/salaries/
             https://goit-j8-group10-final.herokuapp.com/api/salaries/{salary id}
+            To save salary use api/salaries/, pass salary as parameter and RequestMethod.POST
+            To delete salary use api/salaries/{salaryId} and RequestMethod.DELETE
             
-    Information about about all or exact statuses: 
+    Information about about all or exact status: 
             https://goit-j8-group10-final.herokuapp.com/api/statuses/
             https://goit-j8-group10-final.herokuapp.com/api/statuses/{status id}
+            To save status use api/statuses/, pass status as parameter and RequestMethod.POST
+            To delete status use api/statuses/{statusId} and RequestMethod.DELETE
                 
-    Information about about all or exact users: 
+    Information about about all or exact user: 
             https://goit-j8-group10-final.herokuapp.com/api/users/
             https://goit-j8-group10-final.herokuapp.com/api/users/{user id}
+            To save user use api/users/, pass employee as user and RequestMethod.POST
+            To delete user use api/users/{userId} and RequestMethod.DELETE
                    
-    Information about about all or exact roles: 
+    Information about about all or exact role: 
             https://goit-j8-group10-final.herokuapp.com/api/roles/
             https://goit-j8-group10-final.herokuapp.com/api/roles/{role id}
+            To save role use api/roles/, pass role as parameter and RequestMethod.POST
+            To delete role use api/roles/{roleId} and RequestMethod.DELETE
     
     All model classes you can get on Git repository from package:
             goit-j8-group10-final/src/main/java/ua/goit/finall/model/ 
